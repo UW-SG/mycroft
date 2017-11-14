@@ -1,0 +1,1352 @@
+01:49:14.401 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:14.408 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:14.412 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:14.417 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:14.420 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:15.075 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:49:15.099 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:15.684 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:49:15.689 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:49:15.696 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:49:15.701 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:15.705 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:15.822 - mycroft.client.speech.listener:_load_config:211 - INFO - **********************************loading configuration
+01:49:15.822 - mycroft.client.speech.listener:_load_config:217 - INFO - *********************values are*******************
+ALSA lib pcm_dsnoop.c:606:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+finished printing************************
+01:49:15.839 - mycroft.client.speech.listener:create_wake_word_recognizer:270 - INFO - creating wake word engine
+01:49:15.840 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating book
+('self.phonemes-->', u'B UH K')
+('self.phonemes-->', 3)
+('dict_name-->', '/tmp/tmp3W4Gbf')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:49:15.869 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+01:49:15.870 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmpLlm3ki')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:49:15.900 - mycroft.client.speech.listener:create_hot_word_engines:240 - INFO - ###############********creating hotword engines************************************************************************
+#######################xx***********************************found wake word************************************************************************
+01:49:15.900 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for wake up
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'wake up')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'W EY K . AH P')
+('####key_phrase-->', u'wake up')
+('####phonemes -->', u'W EY K . AH P')
+('####dict_name --->', '/tmp/tmpK5RzjJ')
+#######################xx***********************************found wake word************************************************************************
+01:49:15.946 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for book
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'book')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'B UH K')
+('####key_phrase-->', u'book')
+('####phonemes -->', u'B UH K')
+('####dict_name --->', '/tmp/tmpyszeO2')
+#######################xx***********************************found wake word************************************************************************
+01:49:15.982 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for dog
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'dog')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'D AO G')
+('####key_phrase-->', u'dog')
+('####phonemes -->', u'D AO G')
+('####dict_name --->', '/tmp/tmpFZju3k')
+01:49:16.028 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+01:49:16.029 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmph69Jn7')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:49:16.068 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+01:49:16.076 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:16.078 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:16.078 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:17.077 - mycroft.client.speech.listener:run:55 - INFO - Microphone listening started
+01:49:18.025 - mycroft.client.speech.mic:listen:545 - DEBUG - Waiting for wake word...
+('source is-->', <mycroft.client.speech.mic.MutableMicrophone object at 0x7ff575c9d650>)
+01:49:27.334 - __main__:handle_complete_intent_failure:74 - INFO - Failed to find intent.
+01:50:49.562 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:49.603 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:49.612 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:49.623 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:49.675 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:50.174 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:50:50.178 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:50.725 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:50:50.728 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:50:50.729 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:50:50.730 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:50.732 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 172, in <module>
+    main()
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 165, in main
+    loop.run()
+  File "/home/sg/mycroft-core/mycroft/client/speech/listener.py", line 356, in run
+    time.sleep(1)
+  File "/home/sg/mycroft-core/mycroft/lock/__init__.py", line 63, in __call__
+    self.__previous_func(signame, sf)
+TypeError: 'int' object is not callable
+01:51:26.290 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:51:26.291 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+Exception TypeError: 'signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object' in <bound method Signal.__del__ of <mycroft.lock.Signal object at 0x7ff577cff190>> ignored
+01:55:18.489 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:18.503 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:18.522 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:18.525 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:18.547 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:19.110 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:55:19.125 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:20.246 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:55:20.281 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:55:20.301 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:55:20.325 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:20.351 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:20.950 - mycroft.client.speech.listener:_load_config:211 - INFO - **********************************loading configuration
+01:55:20.955 - mycroft.client.speech.listener:_load_config:217 - INFO - *********************values are*******************
+ALSA lib pcm_dsnoop.c:606:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+finished printing************************
+01:55:21.063 - mycroft.client.speech.listener:create_wake_word_recognizer:270 - INFO - creating wake word engine
+01:55:21.068 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating book
+('self.phonemes-->', u'B UH K')
+('self.phonemes-->', 3)
+('dict_name-->', '/tmp/tmpYxDLOy')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:55:21.252 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+01:55:21.255 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmp19YOjh')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:55:21.391 - mycroft.client.speech.listener:create_hot_word_engines:240 - INFO - ###############********creating hotword engines************************************************************************
+#######################xx***********************************found wake word************************************************************************
+01:55:21.395 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for wake up
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'wake up')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'W EY K . AH P')
+('####key_phrase-->', u'wake up')
+('####phonemes -->', u'W EY K . AH P')
+('####dict_name --->', '/tmp/tmp5pmVAf')
+#######################xx***********************************found wake word************************************************************************
+01:55:21.606 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for book
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'book')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'B UH K')
+('####key_phrase-->', u'book')
+('####phonemes -->', u'B UH K')
+('####dict_name --->', '/tmp/tmp3FpHDC')
+#######################xx***********************************found wake word************************************************************************
+01:55:21.934 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for dog
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'dog')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'D AO G')
+('####key_phrase-->', u'dog')
+('####phonemes -->', u'D AO G')
+('####dict_name --->', '/tmp/tmp2Qk2yw')
+01:55:22.164 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+01:55:22.167 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmpUQS5OW')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+01:55:22.389 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:22.400 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:22.403 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+01:55:22.460 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:23.422 - mycroft.client.speech.listener:run:55 - INFO - Microphone listening started
+01:55:24.372 - mycroft.client.speech.mic:listen:545 - DEBUG - Waiting for wake word...
+('source is-->', <mycroft.client.speech.mic.MutableMicrophone object at 0x7f2b20527650>)
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+01:55:31.065 - __main__:handle_complete_intent_failure:74 - INFO - Failed to find intent.
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+01:55:47.895 - __main__:handle_complete_intent_failure:74 - INFO - Failed to find intent.
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+01:55:49.786 - __main__:handle_complete_intent_failure:74 - INFO - Failed to find intent.
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 172, in <module>
+    main()
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 165, in main
+    loop.run()
+  File "/home/sg/mycroft-core/mycroft/client/speech/listener.py", line 356, in run
+    time.sleep(1)
+  File "/home/sg/mycroft-core/mycroft/lock/__init__.py", line 63, in __call__
+    self.__previous_func(signame, sf)
+TypeError: 'int' object is not callable
+frame_data is not null
+frame_data is not null
+frame_data is not null
+Exception TypeError: 'signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object' in <bound method Signal.__del__ of <mycroft.lock.Signal object at 0x7f2b21d88190>> ignored
+13:13:57.921 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:13:57.928 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:13:57.930 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:13:57.939 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:13:57.941 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+13:13:58.683 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+13:13:58.691 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+13:13:59.245 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+13:13:59.253 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+13:13:59.256 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+13:13:59.262 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:13:59.265 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:13:59.471 - mycroft.client.speech.listener:_load_config:211 - INFO - **********************************loading configuration
+13:13:59.471 - mycroft.client.speech.listener:_load_config:217 - INFO - *********************values are*******************
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_route.c:867:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+finished printing************************
+13:14:00.219 - mycroft.client.speech.listener:create_wake_word_recognizer:270 - INFO - creating wake word engine
+13:14:00.220 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating book
+('self.phonemes-->', u'B UH K')
+('self.phonemes-->', 3)
+('dict_name-->', '/tmp/tmpLK6pZX')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+13:14:00.303 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+13:14:00.303 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmpN74G2T')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+13:14:00.347 - mycroft.client.speech.listener:create_hot_word_engines:240 - INFO - ###############********creating hotword engines************************************************************************
+#######################xx***********************************found wake word************************************************************************
+13:14:00.347 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for wake up
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'wake up')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'W EY K . AH P')
+('####key_phrase-->', u'wake up')
+('####phonemes -->', u'W EY K . AH P')
+('####dict_name --->', '/tmp/tmpM2T9dp')
+#######################xx***********************************found wake word************************************************************************
+13:14:00.374 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for book
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'book')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'B UH K')
+('####key_phrase-->', u'book')
+('####phonemes -->', u'B UH K')
+('####dict_name --->', '/tmp/tmpz61tgG')
+#######################xx***********************************found wake word************************************************************************
+13:14:00.409 - mycroft.client.speech.listener:create_hot_word_engines:251 - INFO - Creating hotword engine for dog
+('@@@@@@@@@@@ lang @@@@@@@@@@@@@@@@@@@@@', u'en-us')
+('@@@@@@@@@@@ hot_word @@@@@@@@@@@@@@@@@@@@@', u'dog')
+('@@@@@@@@@@@ phonemes @@@@@@@@@@@@@@@@@@@@@', u'D AO G')
+('####key_phrase-->', u'dog')
+('####phonemes -->', u'D AO G')
+('####dict_name --->', '/tmp/tmpLU4Huc')
+13:14:00.435 - mycroft.client.speech.listener:create_wakeup_recognizer:287 - INFO - creating stand up word engine
+13:14:00.436 - mycroft.client.speech.hotword_factory:create_hotword:140 - INFO - creating wake up
+('self.phonemes-->', u'W EY K . AH P')
+('self.phonemes-->', 6)
+('dict_name-->', '/tmp/tmp9hwCXb')
+('&&&& model_file-->', '/home/sg/mycroft-core/mycroft/client/speech/recognizer/model/en-us/hmm')
+13:14:00.469 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+13:14:00.478 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:14:00.478 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:14:00.479 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:14:02.066 - mycroft.client.speech.listener:run:55 - INFO - Microphone listening started
+13:14:03.014 - mycroft.client.speech.mic:listen:541 - DEBUG - Waiting for wake word...
+('source is-->', <mycroft.client.speech.mic.MutableMicrophone object at 0x7febf55896d0>)
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+frame_data is not null
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 172, in <module>
+    main()
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 165, in main
+    loop.run()
+  File "/home/sg/mycroft-core/mycroft/client/speech/listener.py", line 356, in run
+    time.sleep(1)
+  File "/home/sg/mycroft-core/mycroft/lock/__init__.py", line 63, in __call__
+    self.__previous_func(signame, sf)
+TypeError: 'int' object is not callable
+Exception TypeError: 'signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object' in <bound method Signal.__del__ of <mycroft.lock.Signal object at 0x7febf75eb210>> ignored
+frame_data is not null
+frame_data is not null14:54:43.507 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:43.508 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:43.510 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:43.515 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+14:54:43.516 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:44.179 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//setting HTTP/1.1" 401 38
+14:54:44.206 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:44.696 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+14:54:44.698 - mycroft.configuration.config:__init__:155 - ERROR - HTTPError fetching remote configuration: 401
+14:54:44.707 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+14:54:44.711 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:44.712 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_route.c:867:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+14:54:45.408 - mycroft.client.speech.listener:create_wake_word_recognizer:217 - INFO - creating wake word engine
+14:54:45.409 - mycroft.client.speech.hotword_factory:create_hotword:134 - INFO - creating hey mycroft
+14:54:45.465 - mycroft.client.speech.listener:create_wakeup_recognizer:234 - INFO - creating stand up word engine
+14:54:45.466 - mycroft.client.speech.hotword_factory:create_hotword:134 - INFO - creating wake up
+14:54:45.496 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+14:54:45.502 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:45.502 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:45.503 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+14:54:47.956 - mycroft.client.speech.mic:listen:484 - DEBUG - Waiting for wake word...
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 163, in <module>
+    main()
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 156, in main
+    loop.run()
+  File "/home/sg/mycroft-core/mycroft/client/speech/listener.py", line 303, in run
+    time.sleep(1)
+  File "/home/sg/mycroft-core/mycroft/lock/__init__.py", line 63, in __call__
+    self.__previous_func(signame, sf)
+TypeError: 'int' object is not callable
+14:54:59.163 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:54:59.164 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+Exception TypeError: 'signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object' in <bound method Signal.__del__ of <mycroft.lock.Signal object at 0x7ff124da7550>> ignored
+15:39:14.133 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:14.134 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:14.144 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:14.144 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:14.146 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:14.608 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//setting HTTP/1.1" 401 38
+15:39:14.612 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:15.000 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+15:39:15.009 - mycroft.configuration.config:__init__:155 - ERROR - HTTPError fetching remote configuration: 401
+15:39:15.013 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+15:39:15.018 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:15.023 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_route.c:867:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+15:39:15.825 - mycroft.client.speech.listener:create_wake_word_recognizer:217 - INFO - creating wake word engine
+15:39:15.826 - mycroft.client.speech.hotword_factory:create_hotword:134 - INFO - creating hey mycroft
+15:39:15.863 - mycroft.client.speech.listener:create_wakeup_recognizer:234 - INFO - creating stand up word engine
+15:39:15.863 - mycroft.client.speech.hotword_factory:create_hotword:134 - INFO - creating wake up
+15:39:15.901 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+15:39:15.907 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:15.907 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:15.908 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:18.332 - mycroft.client.speech.mic:listen:484 - DEBUG - Waiting for wake word...
+15:39:23.608 - mycroft.client.speech.mic:listen:489 - DEBUG - Recording...
+15:39:23.609 - __main__:handle_record_begin:35 - INFO - Begin Recording...
+15:39:25.965 - __main__:handle_record_end:40 - INFO - End Recording...
+15:39:25.994 - mycroft.session:get:76 - INFO - New Session Start: 6fb365d8-db42-4852-82a9-98cb55a0c54c
+15:39:25.998 - __main__:handle_wakeword:50 - INFO - Wakeword Detected: hey mycroft
+15:39:26.100 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:26.647 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "POST /v1/stt?lang=en-US&limit=1 HTTP/1.1" 401 38
+15:39:26.673 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:26.922 - mycroft.client.speech.mic:listen:484 - DEBUG - Waiting for wake word...
+15:39:27.174 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+15:39:27.264 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:28.001 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "POST /v1/stt?lang=en-US&limit=1 HTTP/1.1" 401 38
+15:39:28.017 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:28.549 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+15:39:28.571 - mycroft.client.speech.listener:transcribe:153 - WARNING - Access Denied at mycroft.ai
+15:39:28.573 - __main__:handle_utterance:55 - INFO - Utterance: ['pair my device']
+15:40:40.521 - mycroft.client.speech.mic:listen:489 - DEBUG - Recording...
+15:40:40.522 - __main__:handle_record_begin:35 - INFO - Begin Recording...
+15:40:43.457 - __main__:handle_record_end:40 - INFO - End Recording...
+15:40:43.483 - __main__:handle_wakeword:50 - INFO - Wakeword Detected: hey mycroft
+15:40:43.495 - mycroft.client.speech.listener:process:135 - WARNING - Audio too short to be processed
+15:40:44.409 - mycroft.client.speech.mic:listen:484 - DEBUG - Waiting for wake word...
+15:41:00.743 - mycroft.client.speech.mic:listen:489 - DEBUG - Recording...
+15:41:00.745 - __main__:handle_record_begin:35 - INFO - Begin Recording...
+15:41:03.632 - __main__:handle_record_end:40 - INFO - End Recording...
+15:41:03.657 - __main__:handle_wakeword:50 - INFO - Wakeword Detected: hey mycroft
+15:41:03.724 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:41:04.578 - mycroft.client.speech.mic:listen:484 - DEBUG - Waiting for wake word...
+15:41:04.771 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "POST /v1/stt?lang=en-US&limit=1 HTTP/1.1" 200 None
+15:41:05.384 - mycroft.client.speech.listener:transcribe:144 - DEBUG - STT: how are you doing
+15:41:05.388 - __main__:handle_utterance:55 - INFO - Utterance: [u'how are you doing']
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 163, in <module>
+    main()
+  File "/home/sg/mycroft-core/mycroft/client/speech/main.py", line 156, in main
+    loop.run()
+  File "/home/sg/mycroft-core/mycroft/client/speech/listener.py", line 303, in run
+    time.sleep(1)
+  File "/home/sg/mycroft-core/mycroft/lock/__init__.py", line 63, in __call__
+    self.__previous_func(signame, sf)
+TypeError: 'int' object is not callable
+Exception TypeError: 'signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object' in <bound method Signal.__del__ of <mycroft.lock.Signal object at 0x7f6dbdc36690>> ignored

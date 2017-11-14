@@ -1,0 +1,661 @@
+01:49:14.360 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:14.372 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:14.385 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:14.386 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:14.388 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:15.003 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:49:15.016 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:15.524 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:49:15.541 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:49:15.552 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:49:15.570 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:15.580 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:15.695 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:15.702 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:15.703 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:15.709 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:16.095 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/subscription HTTP/1.1" 200 114
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+01:49:16.145 - __main__:main:470 - INFO - Staring Audio Services
+01:49:16.148 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+01:49:16.149 - __main__:load_services:111 - INFO - Loading services
+01:49:16.149 - __main__:get_services:72 - INFO - Loading skills from /home/sg/mycroft-core/mycroft/audio/services/
+01:49:16.150 - __main__:load_services:117 - INFO - Loading chromecast
+01:49:24.752 - __main__:load_services:117 - INFO - Loading mopidy
+01:49:24.768 - __main__:load_services:117 - INFO - Loading mpg123
+01:49:24.774 - __main__:load_services:117 - INFO - Loading vlc
+01:49:24.865 - __main__:load_services_callback:154 - INFO - [<mpg123__init__.Mpg123Service object at 0x7f34dc1be850>, <vlc__init__.VlcService object at 0x7f34dc1bec90>]
+01:49:24.868 - __main__:load_services_callback:156 - INFO - Finding default backend...
+01:49:24.872 - __main__:load_services_callback:158 - INFO - checking local
+01:49:24.876 - __main__:load_services_callback:161 - INFO - Found local
+01:49:24.883 - __main__:load_services_callback:166 - INFO - Default:<mpg123__init__.Mpg123Service object at 0x7f34dc1be850>
+01:49:27.711 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:49:27.719 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:49:27.723 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:49:27.734 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:49:28.276 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/subscription HTTP/1.1" 200 114
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+01:49:28.416 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Sorry, I didn't catch that.
+01:49:30.821 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Please rephrase your request.
+01:49:30.927 - __main__:_lower_volume:257 - INFO - lowering volume
+01:49:33.062 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+01:49:33.526 - __main__:_lower_volume:257 - INFO - lowering volume
+01:49:35.590 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+01:50:49.643 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:49.695 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:49.708 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:49.712 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:49.714 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:50.317 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:50:50.339 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:50.964 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:50:50.971 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:50:50.973 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:50:50.974 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:50.974 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:50.975 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:50.976 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:50.977 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:50.978 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:50.979 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:51.476 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:50:51.484 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:51.936 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:50:51.941 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:50:51.941 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:50:51.942 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:51.943 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:51.945 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:51.948 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:50:51.950 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:51.952 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:50:51.954 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:52.366 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:50:52.373 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:50:52.822 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:50:52.825 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:50:52.825 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:50:52.826 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:50:52.827 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:51:26.256 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:51:26.265 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+01:51:31.276 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:51:31.279 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 10 seconds.
+01:51:41.297 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:51:41.300 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 20 seconds.
+01:52:01.322 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:52:01.322 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 40 seconds.
+01:52:41.364 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:52:41.365 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+01:53:41.426 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:53:41.427 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+01:54:41.487 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+01:54:41.488 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+01:55:18.399 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:18.416 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:18.455 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:18.467 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:18.486 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:19.029 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:55:19.038 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:20.028 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:55:20.066 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:55:20.074 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:55:20.077 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:20.085 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:20.408 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:20.435 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:20.443 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:20.460 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:21.453 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/subscription HTTP/1.1" 200 114
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+01:55:21.702 - __main__:main:470 - INFO - Staring Audio Services
+01:55:21.753 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+01:55:21.756 - __main__:load_services:111 - INFO - Loading services
+01:55:21.766 - __main__:get_services:72 - INFO - Loading skills from /home/sg/mycroft-core/mycroft/audio/services/
+01:55:21.774 - __main__:load_services:117 - INFO - Loading chromecast
+01:55:30.607 - __main__:load_services:117 - INFO - Loading mopidy
+01:55:30.665 - __main__:load_services:117 - INFO - Loading mpg123
+01:55:30.697 - __main__:load_services:117 - INFO - Loading vlc
+01:55:30.939 - __main__:load_services_callback:154 - INFO - [<mpg123__init__.Mpg123Service object at 0x7ff4c8361850>, <vlc__init__.VlcService object at 0x7ff4c8361c90>]
+01:55:30.953 - __main__:load_services_callback:156 - INFO - Finding default backend...
+01:55:30.956 - __main__:load_services_callback:158 - INFO - checking local
+01:55:30.966 - __main__:load_services_callback:161 - INFO - Found local
+01:55:30.978 - __main__:load_services_callback:166 - INFO - Default:<mpg123__init__.Mpg123Service object at 0x7ff4c8361850>
+01:55:32.352 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:55:32.363 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:55:32.368 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:55:32.390 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:55:32.906 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/subscription HTTP/1.1" 200 114
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+01:55:33.052 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Sorry, I didn't catch that.
+01:55:34.512 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Please rephrase your request.
+01:55:34.599 - __main__:_lower_volume:257 - INFO - lowering volume
+01:55:36.593 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+01:55:36.681 - __main__:_lower_volume:257 - INFO - lowering volume
+01:55:38.732 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+01:55:47.898 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Sorry, I didn't catch that.
+01:55:47.898 - mycroft.tts:execute:213 - DEBUG - TTS cache hit
+01:55:47.905 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Please rephrase your request.
+01:55:47.912 - mycroft.tts:execute:213 - DEBUG - TTS cache hit
+01:55:47.942 - __main__:_lower_volume:257 - INFO - lowering volume
+01:55:49.792 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Sorry, I didn't catch that.
+01:55:49.793 - mycroft.tts:execute:213 - DEBUG - TTS cache hit
+01:55:49.795 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Please rephrase your request.
+01:55:49.798 - mycroft.tts:execute:213 - DEBUG - TTS cache hit
+01:55:56.182 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+01:57:07.468 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:07.492 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:07.499 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:07.503 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:07.522 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:08.213 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:57:08.232 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:08.692 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:57:08.702 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:57:08.705 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:57:08.706 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:08.709 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:08.714 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:08.717 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:08.722 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:08.725 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:08.730 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:09.246 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:57:09.257 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:09.772 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:57:09.782 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:57:09.785 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:57:09.787 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:09.788 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:09.792 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:09.798 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:09.800 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:09.803 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:09.807 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:10.273 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:57:10.284 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:10.700 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:57:10.710 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:57:10.712 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:57:10.715 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:10.717 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:10.722 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:10.727 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:10.730 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:10.732 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:10.736 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:11.192 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:57:11.211 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:11.715 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:57:11.728 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:57:11.729 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:57:11.735 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:11.735 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:11.736 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:11.749 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+01:57:11.750 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:11.751 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+01:57:11.752 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:12.595 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+01:57:12.605 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+01:57:13.074 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+01:57:13.089 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+01:57:13.091 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+01:57:13.093 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+01:57:13.100 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+02:09:57.169 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+02:09:57.169 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+02:10:02.189 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+13:13:57.916 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:13:57.918 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:13:57.924 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:13:57.930 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:13:57.935 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+13:13:58.923 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/setting HTTP/1.1" 200 4
+13:13:58.932 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+13:13:59.393 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/location HTTP/1.1" 200 4
+13:13:59.396 - mycroft.configuration.config:__init__:160 - ERROR - Failed to fetch remote configuration: AttributeError("'NoneType' object has no attribute 'iteritems'",)
+Traceback (most recent call last):
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 148, in __init__
+    translate_remote(config, setting)
+  File "/home/sg/mycroft-core/mycroft/configuration/config.py", line 53, in translate_remote
+    for k, v in setting.iteritems():
+AttributeError: 'NoneType' object has no attribute 'iteritems'
+13:13:59.397 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+13:13:59.397 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:13:59.398 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:13:59.449 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+13:13:59.449 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+13:13:59.454 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+13:13:59.455 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+13:14:00.223 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device/015dbb38-a2e4-4044-aeab-2d0b88a88714/subscription HTTP/1.1" 200 114
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+13:14:00.279 - __main__:main:470 - INFO - Staring Audio Services
+13:14:00.282 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+13:14:00.282 - __main__:load_services:111 - INFO - Loading services
+13:14:00.286 - __main__:get_services:72 - INFO - Loading skills from /home/sg/mycroft-core/mycroft/audio/services/
+13:14:00.289 - __main__:load_services:117 - INFO - Loading chromecast
+13:14:08.881 - __main__:load_services:117 - INFO - Loading mopidy
+13:14:08.894 - __main__:load_services:117 - INFO - Loading mpg123
+13:14:08.903 - __main__:load_services:117 - INFO - Loading vlc
+13:14:09.064 - __main__:load_services_callback:154 - INFO - [<mpg123__init__.Mpg123Service object at 0x7f8e1005a850>, <vlc__init__.VlcService object at 0x7f8e1005ac90>]
+13:14:09.072 - __main__:load_services_callback:156 - INFO - Finding default backend...
+13:14:09.074 - __main__:load_services_callback:158 - INFO - checking local
+13:14:09.082 - __main__:load_services_callback:161 - INFO - Found local
+13:14:09.084 - __main__:load_services_callback:166 - INFO - Default:<mpg123__init__.Mpg123Service object at 0x7f8e1005a850>
+13:14:23.196 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:14:23.198 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+13:14:28.221 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:14:28.224 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 10 seconds.
+13:14:38.234 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:14:38.236 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 20 seconds.
+13:14:58.250 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:14:58.252 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 40 seconds.
+13:15:38.277 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:15:38.280 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:16:38.324 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:16:38.328 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:17:38.351 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:17:38.355 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:18:38.418 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:18:38.428 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:19:38.486 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:19:38.492 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:20:38.573 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:20:38.580 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:21:38.642 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:21:38.648 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:22:38.711 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:22:38.719 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:23:38.791 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:23:38.802 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:24:38.852 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:24:38.859 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:25:38.915 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:25:38.917 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:26:38.989 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:26:39.003 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:27:39.085 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:27:39.110 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:28:39.183 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:28:39.196 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:29:39.274 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:29:39.290 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:30:39.359 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:30:39.368 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:31:39.428 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:31:39.438 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:32:39.508 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:32:39.517 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:33:39.560 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:33:39.572 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:34:39.639 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:34:39.650 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+13:35:39.716 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+13:35:39.726 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+14:54:43.487 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:43.489 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:43.490 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:43.503 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+14:54:43.504 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:44.175 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//setting HTTP/1.1" 401 38
+14:54:44.211 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:44.698 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+14:54:44.701 - mycroft.configuration.config:__init__:155 - ERROR - HTTPError fetching remote configuration: 401
+14:54:44.707 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+14:54:44.708 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:44.709 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+14:54:44.823 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+14:54:44.824 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+14:54:44.824 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+14:54:44.825 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:46.034 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//subscription HTTP/1.1" 401 38
+14:54:46.045 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+14:54:46.422 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+14:54:46.499 - __main__:main:470 - INFO - Staring Audio Services
+14:54:46.508 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+14:54:46.510 - __main__:load_services:111 - INFO - Loading services
+14:54:46.514 - __main__:get_services:72 - INFO - Loading skills from /home/sg/mycroft-core/mycroft/audio/services/
+14:54:46.517 - __main__:load_services:117 - INFO - Loading chromecast
+14:54:55.117 - __main__:load_services:117 - INFO - Loading mopidy
+14:54:55.122 - __main__:load_services:117 - INFO - Loading mpg123
+14:54:55.125 - __main__:load_services:117 - INFO - Loading vlc
+14:54:55.228 - __main__:load_services_callback:154 - INFO - [<mpg123__init__.Mpg123Service object at 0x7fe34c153ed0>, <vlc__init__.VlcService object at 0x7fe34c15f350>]
+14:54:55.235 - __main__:load_services_callback:156 - INFO - Finding default backend...
+14:54:55.238 - __main__:load_services_callback:158 - INFO - checking local
+14:54:55.244 - __main__:load_services_callback:161 - INFO - Found local
+14:54:55.248 - __main__:load_services_callback:166 - INFO - Default:<mpg123__init__.Mpg123Service object at 0x7fe34c153ed0>
+14:54:59.160 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:54:59.161 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+14:55:04.169 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:55:04.172 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 10 seconds.
+14:55:14.183 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:55:14.185 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 20 seconds.
+14:55:34.208 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:55:34.211 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 40 seconds.
+14:56:14.253 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:56:14.260 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+14:57:14.312 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:57:14.316 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+14:58:14.369 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:58:14.373 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+14:59:14.433 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+14:59:14.437 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:00:14.497 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:00:14.501 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:01:14.566 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:01:14.571 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:02:14.621 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:02:14.626 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:03:14.691 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:03:14.696 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:04:14.734 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:04:14.739 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:05:14.802 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:05:14.808 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:06:14.864 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:06:14.870 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:07:14.922 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:07:14.929 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:08:14.984 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:08:14.991 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:09:15.060 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:09:15.068 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:10:15.142 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:10:15.159 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:11:15.231 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:11:15.245 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:12:15.303 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:12:15.324 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:13:15.392 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:13:15.410 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:14:15.525 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:14:15.558 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:15:15.628 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:15:15.644 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:16:15.725 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:16:15.733 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:17:15.822 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:17:15.853 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:18:15.942 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:18:15.965 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:19:16.052 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:19:16.065 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:20:16.135 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:20:16.158 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:21:16.224 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:21:16.253 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:22:16.349 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:22:16.366 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:23:16.458 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:23:16.488 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:24:16.591 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:24:16.611 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:25:16.709 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:25:16.730 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:26:16.815 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:26:16.832 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:27:16.929 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:27:16.943 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:28:17.040 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:28:17.067 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:29:17.154 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:29:17.178 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:30:17.269 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:30:17.300 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:31:17.387 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:31:17.416 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:32:17.490 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:32:17.509 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:33:17.605 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:33:17.625 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:34:17.716 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:34:17.736 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:35:17.820 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:35:17.854 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:36:17.942 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:36:17.967 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:37:18.060 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:37:18.081 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:38:18.171 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:38:18.185 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:39:14.125 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:14.126 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:14.140 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:14.140 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:14.142 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:14.652 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//setting HTTP/1.1" 401 38
+15:39:14.656 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:15.063 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+15:39:15.077 - mycroft.configuration.config:__init__:155 - ERROR - HTTPError fetching remote configuration: 401
+15:39:15.078 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/opt/mycroft/web_config_cache.json' not found
+15:39:15.088 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:15.089 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:15.206 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:15.207 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:15.208 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:15.211 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:16.404 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//subscription HTTP/1.1" 401 38
+15:39:16.411 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:16.786 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+15:39:16.812 - __main__:main:470 - INFO - Staring Audio Services
+15:39:16.816 - mycroft.messagebus.client.ws:on_open:57 - INFO - Connected
+15:39:16.816 - __main__:load_services:111 - INFO - Loading services
+15:39:16.817 - __main__:get_services:72 - INFO - Loading skills from /home/sg/mycroft-core/mycroft/audio/services/
+15:39:16.818 - __main__:load_services:117 - INFO - Loading chromecast
+15:39:25.390 - __main__:load_services:117 - INFO - Loading mopidy
+15:39:25.391 - __main__:load_services:117 - INFO - Loading mpg123
+15:39:25.392 - __main__:load_services:117 - INFO - Loading vlc
+15:39:25.438 - __main__:load_services_callback:154 - INFO - [<mpg123__init__.Mpg123Service object at 0x7f2e504fded0>, <vlc__init__.VlcService object at 0x7f2e50509350>]
+15:39:25.443 - __main__:load_services_callback:156 - INFO - Finding default backend...
+15:39:25.443 - __main__:load_services_callback:158 - INFO - checking local
+15:39:25.444 - __main__:load_services_callback:161 - INFO - Found local
+15:39:25.444 - __main__:load_services_callback:166 - INFO - Default:<mpg123__init__.Mpg123Service object at 0x7f2e504fded0>
+15:39:25.452 - __main__:_lower_volume:257 - INFO - lowering volume
+15:39:25.984 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:39:35.205 - mycroft.configuration.config:load_local:108 - DEBUG - Configuration /home/sg/mycroft-core/mycroft/configuration/mycroft.conf loaded
+15:39:35.207 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/etc/mycroft/mycroft.conf' not found
+15:39:35.207 - mycroft.configuration.config:load_local:113 - DEBUG - Configuration '/home/sg/.mycroft/mycroft.conf' not found
+15:39:35.209 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:35.614 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/device//subscription HTTP/1.1" 401 38
+15:39:35.622 - requests.packages.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.mycroft.ai
+15:39:36.066 - requests.packages.urllib3.connectionpool - DEBUG - https://api.mycroft.ai:443 "GET /v1/auth/token HTTP/1.1" 401 38
+  Carnegie Mellon University, Copyright (c) 1999-2011, all rights reserved
+  mimic developers, Copyright (c) 2016, all rights reserved
+  version: mimic-1.2.0.2 ()
+15:39:36.267 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: I'm connected to the internet and need to be activated.
+15:39:39.147 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak:  Register me at home dot mycroft dot A.I with the code.
+15:39:39.172 - __main__:_lower_volume:257 - INFO - lowering volume
+15:39:42.828 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:39:44.169 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: 'T' as in Tango.
+15:39:44.284 - __main__:_lower_volume:257 - INFO - lowering volume
+15:39:45.055 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: 'V' as in Victor.
+15:39:45.670 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Nine.
+15:39:46.042 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: 'H' as in Hotel.
+15:39:46.390 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: 'V' as in Victor.
+15:39:46.391 - mycroft.tts:execute:213 - DEBUG - TTS cache hit
+15:39:46.391 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: 'A' as in Apple
+15:39:58.206 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:40:38.582 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Now I am ready for use.
+15:40:40.526 - __main__:_lower_volume:257 - INFO - lowering volume
+15:40:40.748 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak:  Try asking me things like "hey mycroft, what's the weather", "hey mycroft, tell me about abraham lincoln", or "hey mycroft, play the news".
+15:40:40.762 - __main__:_lower_volume:257 - INFO - lowering volume
+15:40:42.301 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak:  If you need to stop me talking at any time, just push my button.
+15:40:43.476 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:40:47.990 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Currently 05:40, PM
+15:40:59.118 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:41:00.769 - __main__:_lower_volume:257 - INFO - lowering volume
+15:41:03.644 - __main__:_restore_volume:327 - INFO - maybe restoring volume
+15:41:05.765 - mycroft.audio.speech:mute_and_speak:101 - INFO - Speak: Could be better
+15:41:07.124 - __main__:_lower_volume:257 - INFO - lowering volume
+15:41:12.880 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:41:12.881 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 5 seconds.
+15:41:17.892 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:41:17.895 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 10 seconds.
+15:41:27.907 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:41:27.910 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 20 seconds.
+15:41:47.930 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:41:47.933 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 40 seconds.
+15:42:27.969 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:42:27.974 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:43:28.039 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:43:28.049 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:44:28.116 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:44:28.120 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:45:28.181 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:45:28.185 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:46:28.233 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:46:28.237 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:47:28.293 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:47:28.298 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:48:28.361 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:48:28.367 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:49:28.429 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:49:28.435 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:50:28.502 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:50:28.510 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:51:28.580 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:51:28.587 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:52:28.644 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:52:28.650 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:53:28.698 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:53:28.705 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:54:28.770 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:54:28.778 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:55:28.833 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:55:28.841 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:56:28.906 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:56:28.915 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:57:28.980 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:57:28.987 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:58:29.047 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:58:29.056 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+15:59:29.109 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+15:59:29.115 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:00:29.206 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:00:29.223 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:01:29.293 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:01:29.300 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:02:29.366 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:02:29.387 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:03:29.466 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:03:29.487 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:04:29.573 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:04:29.592 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:05:29.673 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:05:29.700 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:06:29.781 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:06:29.801 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:07:29.880 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:07:29.908 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:08:30.049 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:08:30.085 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:09:30.192 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:09:30.218 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:10:30.339 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:10:30.355 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:11:30.425 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:11:30.447 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:12:30.624 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:12:30.674 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:13:30.761 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:13:30.782 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:14:30.861 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:14:30.906 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:15:30.995 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:15:31.015 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:16:31.105 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:16:31.131 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:17:31.216 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:17:31.227 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:18:31.345 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:18:31.372 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:19:31.466 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:19:31.502 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:20:31.585 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:20:31.611 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:21:31.708 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:21:31.730 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:22:31.830 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:22:31.847 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:23:31.932 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:23:31.947 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
+16:24:32.045 - mycroft.messagebus.client.ws:on_error:70 - ERROR - Exception("Uncaught 'error' event.",)
+16:24:32.065 - mycroft.messagebus.client.ws:on_error:71 - WARNING - WS Client will reconnect in 60 seconds.
